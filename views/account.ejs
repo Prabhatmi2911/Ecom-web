@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-alipay' viewBox='0 0 16 16'%3E%3Cpath d='M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0'/%3E%3Cpath d='M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z'/%3E%3C/svg%3E " type="image/x-icon" style="background-color: #fff;">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <title>Ecom Master online shopping site in India</title>
+    
+    <style>
+    body{
+        background-image: url(/images/bgblurred.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .btnlog{
+            display: flex;
+            flex-direction: row;
+            gap: 0.75rem;
+            margin: 24px -40px;
+            justify-content: center;
+            align-items: center;
+        }
+    .row1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .footer{
+    background-color: rgb(61, 61, 63);
+    text-decoration: none;
+    color: #fff;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.foot1{
+    width: 100%;
+}
+.footerpart{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+    </style>
+</head>
+<body >
+    <div class="container-fluid">
+        <div class="row shadow p-3 mb-5 bg-white rounded">
+            <div class="col">
+                <div class="container">
+                    <div class="col">
+                        <h1>
+                            <i class="bi bi-alipay"></i> Ecom Master
+                        </h1>
+                    </div>
+                    <div class="col">
+                        <h6>Enjoy the Embarking Collections of Brands Here</h6>
+                    </div>    
+                </div>    
+            </div>
+            
+            <div class="col">
+            <div class="container btnlog" >
+                <div class="col"><a class="btn btn-primary " href="/home" role="button" style="width: 125%;" >
+                    <i class="bi bi-house-check"></i> Home</a></div>
+                
+                <div class="col"><a class="btn btn-primary " href="/cart" role="button" style="width: 125%;">
+                    <i class="bi bi-cart-check-fill"></i> Cart</a></div>
+                <div class="col"><a class="btn btn-primary " href="/collections" role="button" style="width: 125%;">
+                    <i class="bi bi-collection-fill"></i> Collections</a></div>
+                <div class="col"><a class="btn btn-primary " href="/login" role="button" style="width: 125%;">
+                    <i class="bi bi-box-arrow-in-right"></i> Login</a></div>
+                <div class="col"><a class="btn btn-primary " href="/account" role="button" style="width: 125%;">
+                    <i class="bi bi-person-fill-check"></i> Account</a></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="conatiner row1">
+        <center>
+        <div class="row">
+            <h1>Account Section</h1><hr>
+        </div>
+        <!-- 1st row -->
+        <div class="row">
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><h4>Your Orders</h4></div>
+                    <div class="card-body text-dark">
+                     <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://th.bing.com/th/id/OIP.uGqtEzONA0FlzmIOQL7BOAHaHa?w=250&h=250&c=8&rs=1&qlt=90&dpr=1.3&pid=3.1&rm=2" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                
+                                <p>Track, return, or buy things again</p>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><h4>Login & security</h4></div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="data:image/jpeg;base64,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" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>Edit login, name, and contact</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><h4>Prime</h4></div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-metaverse-background_23-2149272282.jpg?size=626&ext=jpg&ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>View benefits and payment settings</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <!--2nd row  -->
+        <div class="row">
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h4>Your Addresses</h4>
+                    </div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/directions-concept-illustration_114360-1741.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>Edit Addresses for orders and gifts</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h4>Your Business Account</h4>
+                    </div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts-illustrated_23-2148865274.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>Sign up to save upto 28% with GST</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h4>Payment Options</h4>
+                    </div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7561.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>Add or edit payment options</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <!-- 3rd row -->
+        <div class="row">
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h4>Ecom Pay Balance</h4>
+                    </div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/business-ethics-concept-illustration_114360-8860.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>Add money to your balance</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h4>Contact Us </h4>
+                    </div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/contact-us-background-flat-design_23-2148199025.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>Contact to our customer service</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h4>Other accounts</h4>
+                    </div>
+                    <div class="card-body text-dark">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://img.freepik.com/free-vector/mobile-banking-concept-illustration_114360-13928.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 100px; width: auto; margin: auto;">
+                            </div>
+                            <div class="col">
+                                <p>
+                                    accounk Linking, Seller account 
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div><hr>
+    </center>
+    </div>
+    <div class="conatiner row1" style="width: 58.5%; margin-left: 20.75%;">
+        <div class="row shadow p-3 mb-5 bg-white rounded">
+            <div class="col">
+                <img src="https://img.freepik.com/free-vector/male-programmer-working-computer-office-wall-with-hanging-reminder-stickers-developer-creating-new-software-interface-coding-programming-system-administrator-designer-character_575670-1159.jpg?ga=GA1.1.233960768.1726762661&semt=ais_hybrid" alt="" class="img-fluid" style="height: 250px; width: auto; margin: auto;">
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        
+                <a class="btn btn-primary " href="/insert" role="button">
+                    <i class="bi bi-person-fill-check"></i> Add new items</a>
+                    </div>
+                    <div class="row">
+                    <p>
+                        <center>
+                        <h5>!Caution</h5>
+                        Only Admin Edit Mode
+                        Any kind of unauthorized update or editing may lead to permanent blocking of user's account
+                        do at your own Risk!
+                    </center></p>
+                   </div> 
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <div class="container-fluid footer" style="background-color: rgb(61, 61, 63);">
+        <div class="col"><a class="btn btn-secondary" href="/home" role="button" style="width: 100%;" >
+             <h6>Back to Top</h6></a></div>
+       
+       <div class="row">
+      <div class="row">
+        <div class="col">&nbsp;</div>
+        <div class="col">
+            <div class="container foot">
+                <div class="row">
+                    <h4>Get to Know Us</h4>
+                </div>
+                <div class="row"><a href="#">About Us</a></div>
+                <div class="row"><a href="#">Careers</a></div>
+                <div class="row"><a href="#">Press Release</a></div>
+                <div class="row"><a href="#">Ecom Master Science</a></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container foot">
+                <div class="row">
+                    <h4>Connect with Us</h4>
+                </div>
+                <div class="row"><a href="#">Facebook</a></div>
+                <div class="row"><a href="#">Twitter</a></div>
+                <div class="row"><a href="#">Instagram</a></div>
+                <div class="row"><a href="#">Linkdin</a></div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container foot">
+                <div class="row">
+                    <h4>Make Money with Us</h4>
+                </div>
+                <div class="row"><a href="#">Sell on Ecom Master</a></div>
+                <div class="row"><a href="#">Sell under Ecom Master Accelerator</a></div>
+                <div class="row"><a href="#">Protect and Build Your Brand</a></div>
+                <div class="row"><a href="#">Ecom Master Global Selling</a></div>
+                <div class="row"><a href="#">Supply to Ecom Master</a></div>
+                <div class="row"><a href="#">Become an Affiliate</a></div>
+                <div class="row"><a href="#">Fulfilment by Ecom Master</a></div>
+                <div class="row"><a href="#">Advertise Your Products</a></div>
+                <div class="row"><a href="#">Ecom Master Pay on Merchants</a></div>
+            </div>
+        </div>
+        <div class="col">&nbsp;</div>
+       
+    </div>
+    <hr>
+    <div class="row footerpart">
+        <div class="col">
+            <h5 style="margin-left: 70%;">
+                <i class="bi bi-alipay"></i> Ecom Master
+            </h5>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-outline-secondary">
+                <i class="bi bi-globe"></i> Language <i class="bi bi-caret-up-fill"></i></button>
+            <button type="button" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-bar-right"></i> INDIA</button>
+            </div>
+        </div>
+        <div class="col">
+            
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <center><h6>Conditions of Use & Sale &nbsp; Privacy Notice &nbsp; Interest-Based Ads</h6></center>
+            </div>
+            <div class="row"><center>&copy; 2004-2024, Ecom-master.com, Inc. or its affiliates</center></div>
+            <div class="row">&nbsp;</div>
+        </div>
+    </div>
+    </div>  
+</body>
+</html>

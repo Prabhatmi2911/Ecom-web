@@ -1,0 +1,34 @@
+<html>
+    <head></head>
+    <body>
+        <center>
+            <h1>Update Details</h1><hr>
+            <form action="/updateres" method="get">
+                <table width="500px" align="center" border="2">
+                    
+                        <tr>
+                          <td>Id No.</td>
+                          <td><input type="text" name="grollno" value="<%=rec[0].rollno%>" readonly/></td>
+                        </tr>
+                        <tr>
+                          <td>Product</td>
+                          <td><input type="text" name="gproduct" value="<%=rec[0].product%>" readonly/></td>
+                        </tr>
+                        <tr>
+                          <td>image link</td>
+                          <td><input type="text" name="gimg" value="<%=rec[0].img%>" readonly/></td>
+                        </tr>
+                        <tr>
+                          <td>price</td>
+                          <td><input type="text" name="gprice" value="<%=rec[0].price%>" /></td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td><input type="submit" value="update" name="b1" /></td>
+                        </tr>
+                      
+            </table>
+            </form>
+        </center>
+    </body>
+</html>
